@@ -22,7 +22,7 @@
 - (void)drawRect:(NSRect)dirtyRect
 {
 	[super drawRect:dirtyRect];
-
+    dirtyRect = NSInsetRect(dirtyRect, 1, 1);
     NSColor* color = [NSColor colorWithCalibratedRed: 0.502 green: 0.502 blue: 0.502 alpha: 1];
     NSBezierPath* roundedRectanglePath = [NSBezierPath bezierPathWithRoundedRect: dirtyRect xRadius: 4 yRadius: 4];
     [[NSColor whiteColor] setFill];

@@ -1,9 +1,9 @@
-Rounded-Content-View
+Rounded Content View
 ====================
 
 Rounded content view for Mac OS X
 
-It's also possible to alter the titlebar gradient color. Actually that's possible becuase we're using textured window here and as a bunes we get this weird but cool effect. In order to make it a whitish and flat you need to change the `ContentBorderThickness`, the best way to do this is to set `setAutorecalculatesContentBorderThickness` property to `YES`.
+It's also possible to alter the titlebar gradient color. Actually that's possible becuase we're using textured window here and as a bonus get this weird but cool effect. In order to make it a little bit whitish and flat you need to change the `ContentBorderThickness`, the best way to do this is to set `autorecalculatesContentBorderThicknessForEdge` property to `YES`.
 
 ```objectivec
 [[self window] setAutorecalculatesContentBorderThickness:YES forEdge:NSMaxYEdge];
