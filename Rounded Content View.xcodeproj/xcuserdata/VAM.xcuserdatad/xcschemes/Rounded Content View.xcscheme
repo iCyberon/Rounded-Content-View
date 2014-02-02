@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "25CBD6DC189EB3E100131F9E"
                BuildableName = "NiceWindow.app"
-               BlueprintName = "NiceWindow"
-               ReferencedContainer = "container:NiceWindow.xcodeproj">
+               BlueprintName = "Rounded Content View"
+               ReferencedContainer = "container:Rounded Content View.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "25CBD6FD189EB3E100131F9E"
                BuildableName = "NiceWindowTests.xctest"
                BlueprintName = "NiceWindowTests"
-               ReferencedContainer = "container:NiceWindow.xcodeproj">
+               ReferencedContainer = "container:Rounded Content View.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25CBD6DC189EB3E100131F9E"
             BuildableName = "NiceWindow.app"
-            BlueprintName = "NiceWindow"
-            ReferencedContainer = "container:NiceWindow.xcodeproj">
+            BlueprintName = "Rounded Content View"
+            ReferencedContainer = "container:Rounded Content View.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25CBD6DC189EB3E100131F9E"
             BuildableName = "NiceWindow.app"
-            BlueprintName = "NiceWindow"
-            ReferencedContainer = "container:NiceWindow.xcodeproj">
+            BlueprintName = "Rounded Content View"
+            ReferencedContainer = "container:Rounded Content View.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "25CBD6DC189EB3E100131F9E"
             BuildableName = "NiceWindow.app"
-            BlueprintName = "NiceWindow"
-            ReferencedContainer = "container:NiceWindow.xcodeproj">
+            BlueprintName = "Rounded Content View"
+            ReferencedContainer = "container:Rounded Content View.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -14,42 +14,30 @@
 		25CBD6F4189EB3E100131F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBD6F3189EB3E100131F9E /* AppDelegate.m */; };
 		25CBD6F7189EB3E100131F9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CBD6F5189EB3E100131F9E /* MainMenu.xib */; };
 		25CBD6F9189EB3E100131F9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CBD6F8189EB3E100131F9E /* Images.xcassets */; };
-		25CBD700189EB3E100131F9E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CBD6FF189EB3E100131F9E /* XCTest.framework */; };
-		25CBD701189EB3E100131F9E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CBD6E0189EB3E100131F9E /* Cocoa.framework */; };
-		25CBD709189EB3E100131F9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25CBD707189EB3E100131F9E /* InfoPlist.strings */; };
-		25CBD70B189EB3E100131F9E /* NiceWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBD70A189EB3E100131F9E /* NiceWindowTests.m */; };
+		25CBD716189EB47300131F9E /* CBXWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBD715189EB47300131F9E /* CBXWindow.m */; };
+		25CBD71F189EB65300131F9E /* CBXContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBD71E189EB65300131F9E /* CBXContentView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		25CBD702189EB3E100131F9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25CBD6D5189EB3E100131F9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25CBD6DC189EB3E100131F9E;
-			remoteInfo = NiceWindow;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		25CBD6DD189EB3E100131F9E /* NiceWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CBD6DD189EB3E100131F9E /* Rounded Content View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rounded Content View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CBD6E0189EB3E100131F9E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		25CBD6E3189EB3E100131F9E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		25CBD6E4189EB3E100131F9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		25CBD6E5189EB3E100131F9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		25CBD6E8189EB3E100131F9E /* NiceWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiceWindow-Info.plist"; sourceTree = "<group>"; };
+		25CBD6E8189EB3E100131F9E /* Rounded Content View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rounded Content View-Info.plist"; sourceTree = "<group>"; };
 		25CBD6EA189EB3E100131F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25CBD6EC189EB3E100131F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25CBD6EE189EB3E100131F9E /* NiceWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceWindow-Prefix.pch"; sourceTree = "<group>"; };
+		25CBD6EE189EB3E100131F9E /* Rounded Content View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rounded Content View-Prefix.pch"; sourceTree = "<group>"; };
 		25CBD6F0189EB3E100131F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		25CBD6F2189EB3E100131F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25CBD6F3189EB3E100131F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25CBD6F6189EB3E100131F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		25CBD6F8189EB3E100131F9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		25CBD6FE189EB3E100131F9E /* NiceWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CBD6FF189EB3E100131F9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		25CBD706189EB3E100131F9E /* NiceWindowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiceWindowTests-Info.plist"; sourceTree = "<group>"; };
-		25CBD708189EB3E100131F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		25CBD70A189EB3E100131F9E /* NiceWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiceWindowTests.m; sourceTree = "<group>"; };
+		25CBD714189EB47300131F9E /* CBXWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXWindow.h; sourceTree = "<group>"; };
+		25CBD715189EB47300131F9E /* CBXWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXWindow.m; sourceTree = "<group>"; };
+		25CBD71D189EB65300131F9E /* CBXContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBXContentView.h; sourceTree = "<group>"; };
+		25CBD71E189EB65300131F9E /* CBXContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBXContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,23 +49,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25CBD6FB189EB3E100131F9E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25CBD701189EB3E100131F9E /* Cocoa.framework in Frameworks */,
-				25CBD700189EB3E100131F9E /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		25CBD6D4189EB3E100131F9E = {
 			isa = PBXGroup;
 			children = (
-				25CBD6E6189EB3E100131F9E /* NiceWindow */,
-				25CBD704189EB3E100131F9E /* NiceWindowTests */,
+				25CBD6E6189EB3E100131F9E /* Rounded Content View */,
 				25CBD6DF189EB3E100131F9E /* Frameworks */,
 				25CBD6DE189EB3E100131F9E /* Products */,
 			);
@@ -86,8 +64,7 @@
 		25CBD6DE189EB3E100131F9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25CBD6DD189EB3E100131F9E /* NiceWindow.app */,
-				25CBD6FE189EB3E100131F9E /* NiceWindowTests.xctest */,
+				25CBD6DD189EB3E100131F9E /* Rounded Content View.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,54 +89,48 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		25CBD6E6189EB3E100131F9E /* NiceWindow */ = {
+		25CBD6E6189EB3E100131F9E /* Rounded Content View */ = {
 			isa = PBXGroup;
 			children = (
+				25CBD723189ECE0300131F9E /* Classes */,
 				25CBD6F2189EB3E100131F9E /* AppDelegate.h */,
 				25CBD6F3189EB3E100131F9E /* AppDelegate.m */,
 				25CBD6F5189EB3E100131F9E /* MainMenu.xib */,
 				25CBD6F8189EB3E100131F9E /* Images.xcassets */,
 				25CBD6E7189EB3E100131F9E /* Supporting Files */,
 			);
-			path = NiceWindow;
+			path = "Rounded Content View";
 			sourceTree = "<group>";
 		};
 		25CBD6E7189EB3E100131F9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				25CBD6E8189EB3E100131F9E /* NiceWindow-Info.plist */,
+				25CBD6E8189EB3E100131F9E /* Rounded Content View-Info.plist */,
 				25CBD6E9189EB3E100131F9E /* InfoPlist.strings */,
 				25CBD6EC189EB3E100131F9E /* main.m */,
-				25CBD6EE189EB3E100131F9E /* NiceWindow-Prefix.pch */,
+				25CBD6EE189EB3E100131F9E /* Rounded Content View-Prefix.pch */,
 				25CBD6EF189EB3E100131F9E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		25CBD704189EB3E100131F9E /* NiceWindowTests */ = {
+		25CBD723189ECE0300131F9E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				25CBD70A189EB3E100131F9E /* NiceWindowTests.m */,
-				25CBD705189EB3E100131F9E /* Supporting Files */,
+				25CBD714189EB47300131F9E /* CBXWindow.h */,
+				25CBD715189EB47300131F9E /* CBXWindow.m */,
+				25CBD71D189EB65300131F9E /* CBXContentView.h */,
+				25CBD71E189EB65300131F9E /* CBXContentView.m */,
 			);
-			path = NiceWindowTests;
-			sourceTree = "<group>";
-		};
-		25CBD705189EB3E100131F9E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				25CBD706189EB3E100131F9E /* NiceWindowTests-Info.plist */,
-				25CBD707189EB3E100131F9E /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25CBD6DC189EB3E100131F9E /* NiceWindow */ = {
+		25CBD6DC189EB3E100131F9E /* Rounded Content View */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25CBD70E189EB3E100131F9E /* Build configuration list for PBXNativeTarget "NiceWindow" */;
+			buildConfigurationList = 25CBD70E189EB3E100131F9E /* Build configuration list for PBXNativeTarget "Rounded Content View" */;
 			buildPhases = (
 				25CBD6D9189EB3E100131F9E /* Sources */,
 				25CBD6DA189EB3E100131F9E /* Frameworks */,
@@ -169,28 +140,10 @@
 			);
 			dependencies = (
 			);
-			name = NiceWindow;
+			name = "Rounded Content View";
 			productName = NiceWindow;
-			productReference = 25CBD6DD189EB3E100131F9E /* NiceWindow.app */;
+			productReference = 25CBD6DD189EB3E100131F9E /* Rounded Content View.app */;
 			productType = "com.apple.product-type.application";
-		};
-		25CBD6FD189EB3E100131F9E /* NiceWindowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25CBD711189EB3E100131F9E /* Build configuration list for PBXNativeTarget "NiceWindowTests" */;
-			buildPhases = (
-				25CBD6FA189EB3E100131F9E /* Sources */,
-				25CBD6FB189EB3E100131F9E /* Frameworks */,
-				25CBD6FC189EB3E100131F9E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				25CBD703189EB3E100131F9E /* PBXTargetDependency */,
-			);
-			name = NiceWindowTests;
-			productName = NiceWindowTests;
-			productReference = 25CBD6FE189EB3E100131F9E /* NiceWindowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +153,8 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Cyberon;
-				TargetAttributes = {
-					25CBD6FD189EB3E100131F9E = {
-						TestTargetID = 25CBD6DC189EB3E100131F9E;
-					};
-				};
 			};
-			buildConfigurationList = 25CBD6D8189EB3E100131F9E /* Build configuration list for PBXProject "NiceWindow" */;
+			buildConfigurationList = 25CBD6D8189EB3E100131F9E /* Build configuration list for PBXProject "Rounded Content View" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25CBD6DC189EB3E100131F9E /* NiceWindow */,
-				25CBD6FD189EB3E100131F9E /* NiceWindowTests */,
+				25CBD6DC189EB3E100131F9E /* Rounded Content View */,
 			);
 		};
 /* End PBXProject section */
@@ -237,14 +184,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25CBD6FC189EB3E100131F9E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25CBD709189EB3E100131F9E /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,27 +192,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				25CBD6F4189EB3E100131F9E /* AppDelegate.m in Sources */,
+				25CBD716189EB47300131F9E /* CBXWindow.m in Sources */,
+				25CBD71F189EB65300131F9E /* CBXContentView.m in Sources */,
 				25CBD6ED189EB3E100131F9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25CBD6FA189EB3E100131F9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25CBD70B189EB3E100131F9E /* NiceWindowTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		25CBD703189EB3E100131F9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 25CBD6DC189EB3E100131F9E /* NiceWindow */;
-			targetProxy = 25CBD702189EB3E100131F9E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		25CBD6E9189EB3E100131F9E /* InfoPlist.strings */ = {
@@ -298,14 +223,6 @@
 				25CBD6F6189EB3E100131F9E /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		25CBD707189EB3E100131F9E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25CBD708189EB3E100131F9E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -385,9 +302,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NiceWindow/NiceWindow-Prefix.pch";
-				INFOPLIST_FILE = "NiceWindow/NiceWindow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NiceWindow/Rounded Content View-Prefix.pch";
+				INFOPLIST_FILE = "NiceWindow/Rounded Content View-Info.plist";
+				PRODUCT_NAME = "Rounded Content View";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,57 +315,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NiceWindow/NiceWindow-Prefix.pch";
-				INFOPLIST_FILE = "NiceWindow/NiceWindow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NiceWindow/Rounded Content View-Prefix.pch";
+				INFOPLIST_FILE = "NiceWindow/Rounded Content View-Info.plist";
+				PRODUCT_NAME = "Rounded Content View";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		25CBD712189EB3E100131F9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiceWindow.app/Contents/MacOS/NiceWindow";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NiceWindow/NiceWindow-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "NiceWindowTests/NiceWindowTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		25CBD713189EB3E100131F9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiceWindow.app/Contents/MacOS/NiceWindow";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NiceWindow/NiceWindow-Prefix.pch";
-				INFOPLIST_FILE = "NiceWindowTests/NiceWindowTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25CBD6D8189EB3E100131F9E /* Build configuration list for PBXProject "NiceWindow" */ = {
+		25CBD6D8189EB3E100131F9E /* Build configuration list for PBXProject "Rounded Content View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25CBD70C189EB3E100131F9E /* Debug */,
@@ -457,19 +334,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25CBD70E189EB3E100131F9E /* Build configuration list for PBXNativeTarget "NiceWindow" */ = {
+		25CBD70E189EB3E100131F9E /* Build configuration list for PBXNativeTarget "Rounded Content View" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25CBD70F189EB3E100131F9E /* Debug */,
 				25CBD710189EB3E100131F9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		25CBD711189EB3E100131F9E /* Build configuration list for PBXNativeTarget "NiceWindowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25CBD712189EB3E100131F9E /* Debug */,
-				25CBD713189EB3E100131F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

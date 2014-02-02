@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  NiceWindow
+//  Rounded Content View
 //
 //  Created by Vahagn Mkrtchyan on 2/2/14.
 //  Copyright (c) 2014 Cyberon. All rights reserved.
@@ -12,7 +12,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    // Set to `YES` to get whitish (flat) title bar
+    [[self window] setAutorecalculatesContentBorderThickness:NO forEdge:NSMaxYEdge];
 }
 
 @end
